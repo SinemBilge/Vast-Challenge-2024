@@ -24,7 +24,7 @@ Follow these steps to set up and run the project locally:
 ```
 2- Navigate to the project directory:
 ```sh
- cd FishEye-VAST-Challenge-2024-Mini-Challenge-2
+ cd Vast-Challenge-2024
 ```
 3- Build Docker:
 ```sh
