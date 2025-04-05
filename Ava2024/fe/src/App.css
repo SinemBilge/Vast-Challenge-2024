@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* More specific selector for the header */
+.App .App-header {
+  background-color: lightblue !important; /* Ensure background color to light blue */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: darkblue !important; /* Ensure text color to dark blue */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.react-grid-item {
+  background: white;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* App.css dosyanızın sonuna ekleyin */
+.gutter {
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+  cursor: col-resize;
+}
+
+.gutter.gutter-vertical {
+  cursor: row-resize;
+}
+
+/* Additional styles */
+.header-title {
+  font-style: italic; /* Italicized */
+  font-size: smaller; /* Smaller font size */
+}
+
+.dashboard, .explore-view {
+  text-decoration: underline; /* Underlined */
+}
+
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%; /* Adjust the height to make the box bigger */
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-side-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.graph-container {
+  width: 100%;
+  height: 100%; /* Adjust the height to fill the available space */
+  overflow-y: auto;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+

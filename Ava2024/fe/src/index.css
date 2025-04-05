@@ -1,0 +1,21 @@
+/* src/index.css */
+@import '~leaflet/dist/leaflet.css';
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 160px); 
+}
+
+.split > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+}
